@@ -12,6 +12,8 @@ namespace Sunchoke
 {
     public partial class Form1 : Form
     {
+        //link to perdue formula
+        //https://purr.purdue.edu/publications/1600/serve/1/3332?el=3&download=1
 
         //https://hort.purdue.edu/newcrop/afcm/jerusart.html   what the sunchoke is typical characteristics of the plant
 
@@ -88,6 +90,7 @@ namespace Sunchoke
             
 
 
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -102,6 +105,8 @@ namespace Sunchoke
 
         private void btncalculate_Click(object sender, EventArgs e)
         {
+            richTextBox1.Text = "\tHow Statistics are Calculated?\n\n\tThe calculations are derived from a set of formulas from Perdue University amongst other sources to determine the scientific properties of the plant" +
+                "Jerusalem Artichoke or as sometimes commonly refered to as 'Sunchoke'.";
             // we have to calculate the formula 
             // the formula goes 
             // Yield = “A” lbs ÷ “B” lbs/bushel ÷ “C” acres 
@@ -297,6 +302,56 @@ namespace Sunchoke
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+           
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
         {
 
         }
